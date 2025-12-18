@@ -1,0 +1,86 @@
+li {
+    list-style: none;
+}
+
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1700px;
+    height: 800px;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 45px;
+    padding: 2%;
+    perspective: 1000px;
+}
+
+.chapture-one {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+}
+
+.chapture-two {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+
+.chapture-three {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+}
+
+
+.chapture-four {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+}
+
+
+.chapture-five {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+}
+
+
+
+.chapture-six {
+    background-color: aliceblue;
+    width: 437px;
+    height: 361px;
+    border-radius: 25px;
+}
+
+.first-chapture {
+    margin-left: 5%;
+}
+
+.first-universal-p-tag {
+    margin-left: 5%;
+}
+
+.first-chapture-button {
+    margin-left: 20%;
+    margin-top: 20%;
+}
+
+.frist-chapture-button-child {
+    height: 44px;
+    width: 242px;
+    border: 1 px solid white;
+    border-radius: 25px;
+    text-decoration: none;
+}
