@@ -1,0 +1,111 @@
+body{
+    color: rgb(255, 255, 255);
+    background-image: url(images/second.jpg);
+    background-size:cover; 
+}
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    justify-content: flex-end;
+    width: 90%;
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+li, li > a {
+    background-image: linear-gradient(to bottom, red, yellow);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-decoration: none;
+    list-style: none;
+}
+
+li:hover {
+    font-size: 26px;
+    transition: 0.2s;
+    text-underline-position: inherit;
+}
+
+.short-info{
+    text-align: center;
+    color: red;
+    margin-top: 1%;
+    margin-bottom: 20%;
+}
+
+.short-info > h1, .nothing{
+    background-image: linear-gradient(to right, rgb(0, 17, 255), rgb(255, 255, 255), white);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.container{
+    max-width: 50%;
+    color: rgb(255, 255, 255);
+    display: block;
+}
+
+.details > h2{
+    margin-left: 45px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.details > p{
+    font-size: 25px;
+    font-style: oblique;
+    font-style: italic;
+}
+.details > p:hover{
+    color: #000000;
+}
+.details > hr {
+    background-image: linear-gradient(to bottom purple, cyan);
+}
+.details >  p > a{
+    text-decoration: none;
+    color: red;
+    font-size: 27;
+}
+
+@media (max-width:480px) {
+    ul{
+        width: 84%;
+        font-size: 15px;
+        gap: 19px;
+    }
+    li{
+        margin-top: 25px;
+    }
+    li:hover{
+        font-size: 15px;
+        gap: 20px;
+    }
+    .short-info{
+        text-align: center;
+    }
+    .container{
+        max-width: 100%;
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+    }
+    .details{
+        margin-left: 0;
+        margin-top: 5px;
+    }
+    .details > h2{
+        margin: 1%;
+    }
+}

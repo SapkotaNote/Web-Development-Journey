@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: cyan;
+            animation: myMove 4s infinite;
+            animation-duration: 1s;
+            animation-timing-function: ease;
+            animation-delay: 1s;
+            animation-fill-mode: forwards; 
+            
+        }
+        
+        @keyframes myMove{
+            0%{
+                transform: translateY(0);
+            }
+            25%{
+                transform: translateY(60px);
+            }
+            50%{
+                transform: translateX(60px);
+            }
+        }
+        .box:hover{
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>

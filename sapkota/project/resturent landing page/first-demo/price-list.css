@@ -1,0 +1,149 @@
+.price-list {
+    max-width: 600px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-and-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 2px dotted #ccc;
+    padding-bottom: 6px;
+}
+
+.name {
+    color: green;
+}
+
+.price {
+    color: #00bcd4;
+}
+
+footer{
+    background-color: rgba(0, 64, 87, 0.3);
+    display: grid;
+}
+
+
+.main-footer{
+    display: flex;
+}
+.first-section{
+    opacity: 100%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin-left: 60px;
+    display: grid;
+    flex-direction: column;
+    margin-top: 2%;
+    gap: 30px;
+}
+.first-section > h2{
+    margin-left: 8px;
+    margin-right: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section > i > a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 8px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+.second-section{
+    width: 50%;
+    height: 500px;
+}
+.second-section-topic{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.last {
+    align-items: center;
+    gap: 125px;
+    display: grid;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 0%;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium','Arial Narrow',Arial,sans-serif;
+}
+
+.contact-item span {
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+}
+
+.contact-item i {
+    color: #D44638;
+}
+@media (max-width:480px){
+    .price-list{
+        display: block;
+        width: 50%;
+        color: green;
+        margin-left: 1px;
+        font-size: 25px;
+    }
+    .price-list > pre{
+            font-size: 25px;
+    }
+    footer{
+        background-image: linear-gradient(to bottom, red, yellow);
+        background-clip: text;
+        color: transparent;
+        display: flex;
+    }
+    .first-section{
+        display: flex;
+        margin-left: 0%;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .first-section > i > a{
+        font-size: 25px;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        margin-left: 26%;
+        margin-top: 2%;
+        font-size: 25px;
+        gap: 38px;
+    }
+    .contact-item > span{
+        font-size: 25px;
+    }
+    .second-section-topic{
+        margin-top: 133%;
+    }
+    .map{
+        position: fixed;
+        margin-top: 0%;
+        width: auto;
+        margin-left: -30%;
+        height: auto;
+    }
+}

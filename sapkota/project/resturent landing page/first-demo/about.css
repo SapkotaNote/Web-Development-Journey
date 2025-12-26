@@ -1,0 +1,8 @@
+body{
+    color: rgb(255, 255, 255);
+    background-image: url(images/background.jpeg);
+    background-size:cover; 
+}
+.short-info{
+    text-align: center;
+}

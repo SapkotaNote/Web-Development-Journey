@@ -1,0 +1,27 @@
+.postion{
+    position: sticky;
+    color: rgb(155, 28, 28);
+    background-color: aquamarine;
+    top: 0px;
+    border: 10px rgb(0, 0, 0);
+}
+
+.relative{
+    position: relative;
+    color: rgb(155, 28, 28);
+    background-color: aquamarine;
+    top: 0px;
+    border: 10px rgb(0, 0, 0);
+}
+.fixed{
+    position: fixed;
+    color: rgb(155, 28, 28);
+    background-color: aquamarine;
+    top: 0px;
+    border: 10px rgb(0, 0, 0);
+    margin-left: 85%;
+    margin-top: 13%;
+}
+.dispaly{
+    display: contents;
+}

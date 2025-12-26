@@ -1,0 +1,122 @@
+
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.first-container{
+    /* background-color: #00b7ff;  */
+    height: 569px;
+    margin-left: 8px;
+    display: flex;
+    width: 100%;
+}
+
+.left-image{
+    width: 50%;
+}
+
+.left-image > img:nth-child(1){
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 15%;
+    border: #000000;
+    margin-left: 20px;
+}
+
+.right-text{
+    font-size: 30px;
+    position: relative;
+    margin-left: 5%;
+    width: 100%;
+}
+.right-text > h2{
+    margin-top: 13%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-text > p{
+    margin-top: 0%;
+    display: block;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+.four-thing{
+    margin-top: 15px;
+    display: block;
+}
+.four-thing > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    padding: 0;
+    list-style: disc;
+}
+.four-thing > ul > li{
+    color: rgb(255, 255, 255);
+    flex-direction: row;
+}
+.four-thing > ul > li:hover{
+    color: rgb(206, 204, 204);
+    flex-direction: row;
+}
+.second-container{
+    display: flex;
+    height: 569px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    margin-top: 20px;
+}
+.right-image{
+    width: 50%;
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: flex-end;
+}
+.right-image > img{
+    margin-right: 20px;
+}
+
+.left-text{
+    font-size: 30px;
+    position: relative;
+    margin-right: 5%;
+    width: 100%;
+}
+.left-text > h2{
+    margin-top: 13%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.left-text > p{
+    margin-top: 0%;
+    display: block;
+    font-size: 21px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+@media (max-width: 480px) {
+    .first-container{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .right-text{
+        margin-left: 1%;
+        text-align: start;
+    }
+    .left-image > img:nth-child(1){
+        width: 175%;
+    }
+    .second-container{
+        display: block;
+    }
+    .right-image > img:nth-child(1){
+        width: 100%;
+    }
+}
