@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+.catagori{
+    color: white;
+    margin-left: 11%;
+    position: relative;
+}
+.catagori > a{
+    font-size: 35px;
+    position: absolute;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+}
